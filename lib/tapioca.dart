@@ -315,7 +315,7 @@ class Iphone14ProMax6 extends StatelessWidget {
                   width: 115,
                   height: 29,
                   child: Text(
-                    'R\$ 25,00',
+                    'R\$ 10,00',
                     style: TextStyle(
                       color: Colors.black,
                       fontSize: 14,
@@ -334,19 +334,32 @@ class Iphone14ProMax6 extends StatelessWidget {
                   decoration: BoxDecoration(color: const Color(0xFF02EDFC)),
                 ),
               ),
-              Positioned(
-                left: 151,
-                top: 847,
-                child: SizedBox(
-                  width: 221.50,
-                  height: 29,
-                  child: Text(
-                    'VER PEDIDOS\n',
-                    style: TextStyle(
-                      color: Colors.black,
-                      fontSize: 20,
-                      fontFamily: 'Mulish',
-                      fontWeight: FontWeight.w800,
+               Positioned(
+                left: 77,
+                top: 832,
+                child: Container(
+                  width: 291.24,
+                  height: 60,
+                  decoration: BoxDecoration(
+                    color: const Color(0xFF02EDFC),
+                    borderRadius: BorderRadius.circular(12), // Bordas arredondadas
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.black.withOpacity(0.2),
+                        blurRadius: 8,
+                        offset: Offset(0, 4),
+                      ),
+                    ],
+                  ),
+                  child: Center(
+                    child: Text(
+                      'VER PEDIDOS',
+                      style: TextStyle(
+                        color: Colors.white, // Melhor contraste
+                        fontSize: 20,
+                        fontFamily: 'Mulish',
+                        fontWeight: FontWeight.w800,
+                      ),
                     ),
                   ),
                 ),
@@ -386,7 +399,7 @@ class Iphone14ProMax6 extends StatelessWidget {
                   height: 113,
                   decoration: ShapeDecoration(
                     image: DecorationImage(
-                      image: NetworkImage("https://placehold.co/170x113"),
+                      image: NetworkImage("https://imgs.search.brave.com/g7cWQoAs4N1lldCKQIeyMrfymUpX_nvmjPCYtgdHU7o/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMuaXRkZy5jb20u/YnIvaW1hZ2VzLzM2/MC0yNDAvNTAxN2Qz/ZThhMTI3NDE3ZDM5/NjA3ZWMwYjQzZjZi/MzYvOTk3NTMtb3Jp/Z2luYWwuanBn"),
                       fit: BoxFit.cover,
                     ),
                     shape: RoundedRectangleBorder(
@@ -415,7 +428,7 @@ class Iphone14ProMax6 extends StatelessWidget {
                   width: 115,
                   height: 29,
                   child: Text(
-                    'R\$ 25,00',
+                    'R\$ 9,00',
                     style: TextStyle(
                       color: Colors.black,
                       fontSize: 14,
@@ -447,7 +460,7 @@ class Iphone14ProMax6 extends StatelessWidget {
                   height: 113,
                   decoration: ShapeDecoration(
                     image: DecorationImage(
-                      image: NetworkImage("https://placehold.co/170x113"),
+                      image: NetworkImage("https://imgs.search.brave.com/GqRy0Sz4Bx8jYUpa-LHRGAwy6wtHziAkybq6SeRPBKY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzkzL2Zl/L2FmLzkzZmVhZmU5/ODZlNWFiM2ViOWZk/ZWEyNGQxNWEwMDU5/LmpwZw"),
                       fit: BoxFit.cover,
                     ),
                     shape: RoundedRectangleBorder(
@@ -476,7 +489,7 @@ class Iphone14ProMax6 extends StatelessWidget {
                   width: 115,
                   height: 29,
                   child: Text(
-                    'R\$ 25,00',
+                    'R\$ 12,00',
                     style: TextStyle(
                       color: Colors.black,
                       fontSize: 14,

@@ -218,7 +218,7 @@ class Iphone14ProMax7 extends StatelessWidget {
                   height: 113,
                   decoration: ShapeDecoration(
                     image: DecorationImage(
-                      image: NetworkImage("https://placehold.co/170x113"),
+                      image: NetworkImage("https://imgs.search.brave.com/siPSlumuGQwdEAYwGusrNSBSy-zMrTZvB_trKLP47LU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zd2lm/dGJyLnZ0ZXhpbWcu/Y29tLmJyL2FycXVp/dm9zL3Juay1zZW8t/YmF0YXRhLWZyaXRh/LTEucG5nP3Y9NjM4/MTUyNjI2NzcxMDcw/MDAw"),
                       fit: BoxFit.cover,
                     ),
                     shape: RoundedRectangleBorder(
@@ -247,7 +247,7 @@ class Iphone14ProMax7 extends StatelessWidget {
                   width: 115,
                   height: 29,
                   child: Text(
-                    'R\$ 25,00',
+                    'R\$ 15,00',
                     style: TextStyle(
                       color: Colors.black,
                       fontSize: 14,
@@ -279,7 +279,7 @@ class Iphone14ProMax7 extends StatelessWidget {
                   height: 113,
                   decoration: ShapeDecoration(
                     image: DecorationImage(
-                      image: NetworkImage("https://placehold.co/170x113"),
+                      image: NetworkImage("https://imgs.search.brave.com/lZ_ZtsdEKS16KKW6BqdNcbhSacpK34QRhwvHIifenhk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NzFNMFZpWFVhNEwu/anBn"),
                       fit: BoxFit.cover,
                     ),
                     shape: RoundedRectangleBorder(
@@ -308,7 +308,7 @@ class Iphone14ProMax7 extends StatelessWidget {
                   width: 115,
                   height: 29,
                   child: Text(
-                    'R\$ 25,00',
+                    'R\$ 5,00',
                     style: TextStyle(
                       color: Colors.black,
                       fontSize: 14,
@@ -327,24 +327,36 @@ class Iphone14ProMax7 extends StatelessWidget {
                   decoration: BoxDecoration(color: const Color(0xFF02EDFC)),
                 ),
               ),
-              Positioned(
-                left: 151,
-                top: 847,
-                child: SizedBox(
-                  width: 221.50,
-                  height: 29,
-                  child: Text(
-                    'VER PEDIDOS\n',
-                    style: TextStyle(
-                      color: Colors.black,
-                      fontSize: 20,
-                      fontFamily: 'Mulish',
-                      fontWeight: FontWeight.w800,
+             Positioned(
+                left: 77,
+                top: 832,
+                child: Container(
+                  width: 291.24,
+                  height: 60,
+                  decoration: BoxDecoration(
+                    color: const Color(0xFF02EDFC),
+                    borderRadius: BorderRadius.circular(12), // Bordas arredondadas
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.black.withOpacity(0.2),
+                        blurRadius: 8,
+                        offset: Offset(0, 4),
+                      ),
+                    ],
+                  ),
+                  child: Center(
+                    child: Text(
+                      'VER PEDIDOS',
+                      style: TextStyle(
+                        color: Colors.white, // Melhor contraste
+                        fontSize: 20,
+                        fontFamily: 'Mulish',
+                        fontWeight: FontWeight.w800,
+                      ),
                     ),
                   ),
                 ),
-              ),
-              Positioned(
+              ),Positioned(
                 left: 20,
                 top: 36,
                 child: Text(
@@ -379,7 +391,7 @@ class Iphone14ProMax7 extends StatelessWidget {
                   height: 113,
                   decoration: ShapeDecoration(
                     image: DecorationImage(
-                      image: NetworkImage("https://placehold.co/170x113"),
+                      image: NetworkImage("https://imgs.search.brave.com/-MiTn4SbCBOMyKrWR8-auWma8LTZyoB12s4swVcnCkY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMuaXRkZy5jb20u/YnIvaW1hZ2VzLzY0/MC00NDAvNzNlNmRl/Yzk0NjdhMmE5YzA2/ZDYyMjZmODA3YzQx/Y2IvZmlsZS1kZS1w/ZWl4ZS1hc3NhZG8t/MS0uanBn"),
                       fit: BoxFit.cover,
                     ),
                     shape: RoundedRectangleBorder(
@@ -408,7 +420,7 @@ class Iphone14ProMax7 extends StatelessWidget {
                   width: 115,
                   height: 29,
                   child: Text(
-                    'R\$ 25,00',
+                    'R\$ 35,00',
                     style: TextStyle(
                       color: Colors.black,
                       fontSize: 14,
@@ -440,7 +452,7 @@ class Iphone14ProMax7 extends StatelessWidget {
                   height: 113,
                   decoration: ShapeDecoration(
                     image: DecorationImage(
-                      image: NetworkImage("https://placehold.co/170x113"),
+                      image: NetworkImage("https://imgs.search.brave.com/Su-C4OY_GlFHA8lnKjJd5qxG59ul1m9HsmqYj_RY3HE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWRzLm1ldHJvaW1n/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAyNC8wNS8wNDEy/Mjc0MS9TdWNvLWRl/LWxhcmFuamEtNi5q/cGc"),
                       fit: BoxFit.cover,
                     ),
                     shape: RoundedRectangleBorder(
@@ -469,7 +481,7 @@ class Iphone14ProMax7 extends StatelessWidget {
                   width: 115,
                   height: 29,
                   child: Text(
-                    'R\$ 25,00',
+                    'R\$ 5,00',
                     style: TextStyle(
                       color: Colors.black,
                       fontSize: 14,
